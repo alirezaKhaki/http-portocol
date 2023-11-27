@@ -1,0 +1,27 @@
+{
+  "name": "http-portocol",
+  "version": "1.0.0",
+  "description": "This repository contains a simple Node.js Express TypeScript project that demonstrates how the HTTP protocol works. This project is intended for educational purposes and can be used as a starting point to learn about HTTP and web servers.",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node ./dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alirezaKhaki/http-portocol.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alirezaKhaki/http-portocol/issues"
+  },
+  "homepage": "https://github.com/alirezaKhaki/http-portocol#readme",
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.10.0",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "typescript": "^5.3.2"
+  }
+}
