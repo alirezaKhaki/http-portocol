@@ -46,7 +46,7 @@ Follow these steps to get started with the project:
 
 The project structure is organized as follows:
 
-- `app.ts`: The main TypeScript file that sets up the Express server and handles HTTP requests.
+- `server.ts`: The main TypeScript file that sets up the Express server and handles HTTP requests.
 - `tsconfig.json`: TypeScript configuration file.
 - `dist/`: Directory where compiled JavaScript files are stored.
 - `node_modules/`: Directory where project dependencies are installed.
